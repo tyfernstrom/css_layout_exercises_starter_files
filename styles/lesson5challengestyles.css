@@ -39,8 +39,11 @@ a {
 	height: 50px;
 	display: inline-block;
 	font-size:24px;
-	vertical-align: sub;
 	text-decoration: none;
+}
+
+.a1, .a2 {
+	vertical-align: sub;
 }
 
 .a2 {
@@ -75,3 +78,56 @@ a {
 
 }
 
+table {
+	padding-top: 40px;
+	padding-left: 110px;
+}
+
+.td {
+	height: 50px;
+	border-top: 2px solid lightgrey;
+	border-bottom: 2px solid lightgrey;
+	text-align: center;
+}
+
+.td1{
+	width: 60px;
+	border-left: 2px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+
+.td2 {
+	width: 120px;
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+
+.td3 {
+	width: 60px;
+	border-left: 1px solid lightgrey;
+	border-right: 2px solid lightgrey;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+.search-results {
+	padding-top: 60px;
+	padding-left: 90px;
+}
+
+span {
+	display: inline-block;
+	height: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 24px;
+	color: lightgrey;
+}
+
+.job-result {
+	font-weight: bolder;
+	color: blue; 
+}
