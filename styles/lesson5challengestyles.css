@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -54,6 +55,10 @@ a {
 	list-style: none;
 }
 
+h3 {
+	font-size: 16px;
+}
+
 .search-container {
 	padding-top: 90px;
 	padding-left: 110px;
@@ -67,6 +72,7 @@ a {
 	height: 40px;
 	width: 50%;
 	border: 2px solid lightgrey;
+	border-radius: 5px;
 }
 
 .search-button {
@@ -75,6 +81,7 @@ a {
 	height: 40px;
 	vertical-align: top;
 	border: 2px solid lightgrey;
+	border-radius: 5px;
 
 }
 
@@ -88,24 +95,28 @@ table {
 	border-top: 2px solid lightgrey;
 	border-bottom: 2px solid lightgrey;
 	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .td1{
-	width: 60px;
+	width: 90px;
 	border-left: 2px solid lightgrey;
 	border-right: 1px solid lightgrey;
+	border-radius: 5px 0px 0px 5px;
 }
 
 .td2 {
-	width: 120px;
+	width: 150px;
 	border-left: 1px solid lightgrey;
 	border-right: 1px solid lightgrey;
 }
 
 .td3 {
-	width: 60px;
+	width: 90px;
 	border-left: 1px solid lightgrey;
 	border-right: 2px solid lightgrey;
+	border-radius: 0px 5px 5px 0px;
 }
 
 table {
